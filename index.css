@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:rgb(99, 6, 130);
+    --secundary-color:#f9f9f9;
+    --p-color:rgb(89, 89, 89);
+    --btn-bg-color:rgba(0, 140, 255, 0.515);
+    --footer-bg-color:rgb(30, 33, 42);
+    --p-color-footer:rgb(131, 131, 131);
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('https://i.icomoon.io/public/temp/c1c6524452/UntitledProject/icomoon.eot?8afuk8');
+    src:  url(../assets/icomoon-icon/fonts/icomoon.eot) format('embedded-opentype'),
+      url(../assets/icomoon-icon/fonts/icomoon.ttf) format('truetype'),
+      url(../assets/icomoon-icon/fonts/icomoon.woff) format('woff'),
+      url(../assets/icomoon-icon/fonts/icomoon.svg) format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--secundary-color);
+    width: 100vw;
+}
+    .header_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .header_container img{
+        display: block;
+        margin: auto;
+    }
+    .header_list, .header_link{
+        list-style: none;
+        text-decoration: none;
+    }
+    .header_list{
+        margin-bottom: 1rem;
+    }
+    .header_link{
+        width: 100vw;
+        display: block;
+        text-align: center;
+        color: white;
+        background-color: var(--primary-color);
+        padding: 0.5rem 0rem;
+    }
+/* ---------------------------------------------------------------------------------------- */
+.article_n1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 1rem;
+
+}
+.container_article_n1{
+    height: 20vh;
+}
+.article_n1-title{
+    color: var(--primary-color);
+    width: fit-content;
+    margin-bottom: 1rem;
+}
+.article_n1-p{
+    text-align: center;
+    color: var(--p-color);
+}
+.article_n1-btn{
+    margin-top: 1rem;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0.5rem 1.5rem;
+    background-color: var(--btn-bg-color);
+    border-radius: 0.3rem;
+    margin-bottom: 1.5rem;
+}
+/* ---------------------------------------------------------------------------------------- */
+.card_container{
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+/* ============================================== */
+.icon-home3:before {
+    content: "\e902";
+  }
+  .icon-map:before {
+    content: "\e94b";
+  }
+  .icon-spoon-knife:before {
+    content: "\e9a3";
+  }
+  .icon-bubbles4:before {
+    content: "\e970";
+  }
+
+[class^="icon-"], [class*=" icon-"] {
+    color: var(--primary-color);
+
+    font-size: 3rem;
+}
+/* ============================================== */
+.card_title{
+    width: fit-content;
+
+    font-weight: normal;
+    color: var(--primary-color);
+}
+.card_p{
+    text-align: center;
+    font-size: 1rem;
+    margin: 0rem 0.5rem ;
+    color: var(--p-color);
+}
+/* ---------------------------------------------------------------------------------------- */
+.img-card{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 1rem;
+}
+.img-card img{
+    width: 90vw;
+    
+}
+.img-card_img{
+    margin-bottom: 1rem;
+}
+
+.img-card_title{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;        
+    width: 90vw;
+    font-weight: normal;
+}
+.img-card_p{
+    color: var(--p-color);
+    margin-bottom: 1rem;
+    width: 90vw;
+}
+/* ---------------------------------------------------------------------------------------- */
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--footer-bg-color);
+    padding: 2rem 1rem;
+}
+.footer_title{
+    width: fit-content;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+    color: var(--p-color-footer);
+    margin-bottom: 1rem;
+}
+.footer_p{
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--p-color-footer);
+}

@@ -1,0 +1,384 @@
+@media (min-width: 801px){
+@media (min-width: 801px){
+    
+    @font-face {
+        font-family: 'icomoon';
+        src:  url('https://i.icomoon.io/public/temp/c1c6524452/UntitledProject/icomoon.eot?8afuk8');
+        src:  url(../assets/icomoon-icon/fonts/icomoon.eot) format('embedded-opentype'),
+          url(../assets/icomoon-icon/fonts/icomoon.ttf) format('truetype'),
+          url(../assets/icomoon-icon/fonts/icomoon.woff) format('woff'),
+          url(../assets/icomoon-icon/fonts/icomoon.svg) format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+      }
+      
+      [class^="icon-"], [class*=" icon-"] {
+        /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'icomoon' !important;
+        speak: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+      
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      html,
+      body{
+        overflow-x: hidden;
+      }
+      *{
+        box-sizing: border-box;
+      }
+
+
+
+
+
+
+
+
+
+
+
+    .header_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100vw;
+    
+    }
+    .header_container img{
+        display: block;
+        margin: 0;
+        padding-left: 1rem;
+    }
+    .header_list, .header_link{
+        list-style: none;
+        text-decoration: none;
+    }
+    .header_list{
+        padding: 0rem 1.5rem 0rem 0rem;
+        display: flex;
+        margin-bottom: 0;
+    }
+    .header_link{
+        width: fit-content;
+        display: inline-block;
+        text-align: center;
+        color: var(--primary-color);
+        padding: 1rem 1rem;
+        background-color: transparent;
+        height: 100%;
+        margin: 0;
+    }
+    .header_link:hover{
+        background-color: rgba(0, 0, 0, 0.063);
+    }
+/* ---------------------------------------------------------------------------------------- */
+
+.article_n1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 1rem;
+
+}
+.container_article_n1{
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    justify-content: center;
+
+    width: 100vw;
+    background-image: url(../images/bg_topo_1198x670.jpg);
+    height:fit-content;
+    padding: 0 1rem 1rem 0rem;
+    background-position: bottom;
+}
+
+.icon-circle-right:before {
+    font-size: 5rem;
+    color: white;
+    content: "\ea42";
+}
+
+.article_n1-title{
+    color: white;
+    width: fit-content;
+    margin: 2rem 0rem;
+}
+.article_n1-p{
+    width: 90vw;
+    text-align: center;
+    color: white;
+}
+.article_n1-btn{
+    margin-top: 1rem;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 1rem 3rem;
+    background-color: rgb(96, 96, 253);
+    border-radius: 0.3rem;
+    margin-bottom: 0;
+}
+/* ---------------------------------------------------------------------------------------- */
+.container_card-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card_container{
+    width: 50vw;
+    margin-bottom: 2rem;
+    margin-top: 6vh;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.card_title{
+    width: fit-content;
+
+    font-weight: normal;
+    color: var(--primary-color);
+}
+.card_p{
+    text-align: center;
+    font-size: 1rem;
+    margin: 0rem 1rem ;
+    color: var(--p-color);
+}
+/* ---------------------------------------------------------------------------------------- */
+.img-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    width: 100vw;
+    position: relative;
+    background-color: white;
+    }
+    .img-card img{
+        width: 30vw;
+    }
+    .img-card_img{
+        margin-left:2vw;
+        margin-bottom: 1rem;
+    }
+    .img-card_content{
+        display: flex;
+        flex-direction: column;
+
+        margin-left: 2vw;
+    }
+    .img-card_title{
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem;        
+        width: 90vw;
+        font-weight: normal;
+
+        position: absolute;
+        top: 2vw;
+    }
+    .img-card_p{
+        color: var(--p-color);
+        margin-bottom: 1rem;
+        width: 65vw;
+    }
+}
+      [class^="icon-"], [class*=" icon-"] {
+        /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'icomoon' !important;
+        speak: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+      
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      html,
+      body{
+        overflow-x: hidden;
+      }
+      *{
+        box-sizing: border-box;
+      }
+
+
+
+
+
+
+
+
+
+
+
+    .header_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100vw;
+    
+    }
+    .header_container img{
+        display: block;
+        margin: 0;
+        padding-left: 1rem;
+    }
+    .header_list, .header_link{
+        list-style: none;
+        text-decoration: none;
+    }
+    .header_list{
+        padding: 0rem 1.5rem 0rem 0rem;
+        display: flex;
+        margin-bottom: 0;
+    }
+    .header_link{
+        width: fit-content;
+        display: inline-block;
+        text-align: center;
+        color: var(--primary-color);
+        padding: 1rem 1rem;
+        background-color: transparent;
+        height: 100%;
+        margin: 0;
+    }
+    .header_link:hover{
+        background-color: rgba(0, 0, 0, 0.063);
+    }
+/* ---------------------------------------------------------------------------------------- */
+
+.article_n1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 1rem;
+
+}
+.container_article_n1{
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    justify-content: center;
+
+    width: 100vw;
+    background-image: url(../images/bg_topo_1198x670.jpg);
+    height:fit-content;
+    padding: 0 1rem 1rem 0rem;
+    background-position: bottom;
+}
+
+.icon-circle-right:before {
+    font-size: 5rem;
+    color: white;
+    content: "\ea42";
+}
+
+.article_n1-title{
+    color: white;
+    width: fit-content;
+    margin: 2rem 0rem;
+}
+.article_n1-p{
+    width: 90vw;
+    text-align: center;
+    color: white;
+}
+.article_n1-btn{
+    margin-top: 1rem;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 1rem 3rem;
+    background-color: rgb(96, 96, 253);
+    border-radius: 0.3rem;
+    margin-bottom: 0;
+}
+/* ---------------------------------------------------------------------------------------- */
+.container_card-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card_container{
+    width: 50vw;
+    margin-bottom: 2rem;
+    margin-top: 6vh;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.card_title{
+    width: fit-content;
+
+    font-weight: normal;
+    color: var(--primary-color);
+}
+.card_p{
+    text-align: center;
+    font-size: 1rem;
+    margin: 0rem 1rem ;
+    color: var(--p-color);
+}
+/* ---------------------------------------------------------------------------------------- */
+.img-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    width: 100vw;
+    position: relative;
+    background-color: white;
+    }
+    .img-card img{
+        width: 30vw;
+    }
+    .img-card_img{
+        margin-left:2vw;
+        margin-bottom: 1rem;
+    }
+    .img-card_content{
+        display: flex;
+        flex-direction: column;
+
+        margin-left: 2vw;
+    }
+    .img-card_title{
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem;        
+        width: 90vw;
+        font-weight: normal;
+    }
+    .img-card_p{
+        color: var(--p-color);
+        margin-bottom: 1rem;
+        width: 65vw;
+    }
+}
